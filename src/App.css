@@ -2,8 +2,32 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url('img/background.jpg');
 }
 
 .mainSection{
   flex-grow: 1;
+}
+
+.transparencia{
+  background: #000000;
+  background: rgba(0, 132, 255, 0.5);
+}
+
+.glow {
+  font-size: 50px;
+  color: #1ef153;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #2b2828, 0 0 20px #2b2828, 0 0 30px #000270, 0 0 40px #000270, 0 0 50px #000270, 0 0 60px #000270, 0 0 70px #000270;
+  }
+  to {
+    text-shadow: 0 0 20px #2b2828, 0 0 30px #2b2828, 0 0 40px #003cff, 0 0 50px #003cff, 0 0 60px #003cff, 0 0 70px #003cff, 0 0 80px #003cff;
+  }
 }
