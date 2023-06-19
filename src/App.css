@@ -3,10 +3,26 @@
   display: flex;
   flex-direction: column;
   background-image: url('img/background.jpg');
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .mainSection{
   flex-grow: 1;
+}
+
+.miFooter{
+  bottom: 0;
+}
+
+.bg-degradado{
+  background: #74ebd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+h3 {
+  text-shadow: 0 0 5px rgb(0, 139, 42);
 }
 
 .transparencia{

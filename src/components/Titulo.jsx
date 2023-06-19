@@ -2,8 +2,8 @@ import React from 'react';
 
 const Titulo = () => {
     return (
-        <div className='text-center mt-4 py-3 transparencia'>
-          <h1 className='glow'>Your Weather</h1>
+        <div className='text-center mt-0 py-3 transparencia'>
+          <h1 className='glow'>Tucu Clima v1.0</h1>
         </div>
     );
 };
